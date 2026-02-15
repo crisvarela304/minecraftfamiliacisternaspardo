@@ -1,0 +1,27 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: mc-exosphere
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      # Datos de tu variables.txt
+      VERSION: "1.21.1"
+      TYPE: "NEOFORGE"
+      NEOFORGE_VERSION: "21.1.219"
+      # Configuración para tu familia
+      ONLINE_MODE: "FALSE"
+      MEMORY: "4G"
+    volumes:
+      # Mapea tu repositorio a la carpeta de datos de Docker
+      - .:/data
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          # Límite duro para proteger el resto del VPS
+          memory: 4.5G
+    restart: unless-stopped
