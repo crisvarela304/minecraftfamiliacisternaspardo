@@ -1,0 +1,26 @@
+{
+	id: "63587E4FE7F6C833"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			id: "4882339FBB19FA99"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 5.0f
+		}
+		{ id: "3F7EA96552B54894", item: { count: 1, id: "minecraft:diamond_block" } }
+		{
+			count: 3
+			id: "121C9F1223752C21"
+			item: {
+				count: 1
+				id: "minecraft:diamond_ore"
+			}
+			weight: 5.0f
+		}
+		{ id: "01D6970B8EE7F743", item: { count: 1, id: "vc_gliders:reinforced_paper_diamond" } }
+	]
+}

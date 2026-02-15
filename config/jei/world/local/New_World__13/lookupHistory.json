@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:cocoa_beans"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:pyromancer_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:glacial_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

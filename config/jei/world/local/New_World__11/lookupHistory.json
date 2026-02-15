@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"oritech:plutonium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:uranium_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

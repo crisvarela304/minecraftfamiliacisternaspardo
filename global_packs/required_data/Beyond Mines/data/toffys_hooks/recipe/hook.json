@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item" : "minecraft:iron_ingot"
+    },
+    {
+      "item" : "minecraft:iron_ingot"
+    },
+    {
+      "item" : "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "toffys_hooks:hook"
+  }
+}

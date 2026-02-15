@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ftbquests:missing_item","components":{"ftbquests:missing_item":"itemfilters:tag"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:runic_tablet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_armors:steampunk_leggings","components":{"minecraft:set_count":1,"minecraft:thruster_state":1}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crossbow"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

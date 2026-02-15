@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#deeperdarker:has_draconium_ore",
+  "features": [
+    "draconicevolution:deeperdarker_draconium_ore"
+  ],
+  "step": "underground_ores"
+}
