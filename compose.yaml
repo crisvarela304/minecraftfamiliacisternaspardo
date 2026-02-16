@@ -12,13 +12,13 @@ services:
       TYPE: "FORGE"
       FORGE_VERSION: "LATEST"
       ONLINE_MODE: "FALSE"
-      MEMORY: "4G"
-      # Flags optimizadas para reducir el lag entre Alemania y Concepción
+      # Bajamos a 3500M para dar aire a la VPS
+      MEMORY: "3500M" 
       JVM_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20"
     volumes:
       - ./data:/data
     deploy:
       resources:
         limits:
-          memory: 6G 
-    restart: unless-stopped
+          # Bajamos el limite total a 5G
+          memory: 5G
