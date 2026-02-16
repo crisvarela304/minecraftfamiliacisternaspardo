@@ -1,5 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"immersive_melodies:ender_bass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"supplementaries:rope_arrow","components":{"supplementaries:charges":28}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

@@ -1,9 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"elevatorid:elevator_white"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"enderio:void_chassis"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"elevatorid:elevator_pink"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"elevatorid:elevator_brown"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"elevatorid:elevator_yellow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"elevatorid:elevator_black"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

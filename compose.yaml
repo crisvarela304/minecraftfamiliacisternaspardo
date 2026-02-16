@@ -1,26 +1,24 @@
 services:
   mc:
     image: itzg/minecraft-server
-    container_name: mc-exosphere
+    container_name: mc-proyecto-japon
     tty: true
     stdin_open: true
     ports:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "1.21.1"
-      TYPE: "NEOFORGE"
-      NEOFORGE_VERSION: "21.1.219"
+      VERSION: "1.20.1"
+      TYPE: "FORGE"
+      FORGE_VERSION: "LATEST"
       ONLINE_MODE: "FALSE"
-      # Java usará 4GB para el juego
       MEMORY: "4G"
+      # Flags optimizadas para reducir el lag entre Alemania y Concepción
+      JVM_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20"
     volumes:
-      # Mapea tu carpeta a los datos del servidor
-      - .:/data
+      - ./data:/data
     deploy:
       resources:
         limits:
-          cpus: '2.0'
-          # Docker permite hasta 6GB para evitar el error 137
-          memory: 6G
+          memory: 6G 
     restart: unless-stopped

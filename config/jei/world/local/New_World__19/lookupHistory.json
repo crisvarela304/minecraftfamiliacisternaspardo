@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"toffys_hooks:hook_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"toffys_hooks:grappling_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"vc_gliders:paraglider_wood","components":{"minecraft:enchantments":{"levels":{"minecraft:unbreaking":3}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

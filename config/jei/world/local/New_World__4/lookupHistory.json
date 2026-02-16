@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"yungscavebiomes:frost_lily"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"toffys_hooks:hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"refinedstorage:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

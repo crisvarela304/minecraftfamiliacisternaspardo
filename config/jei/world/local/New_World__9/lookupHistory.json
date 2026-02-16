@@ -1,4 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"minecraft:compass","components":{"minecraft:lodestone_tracker":{"target":{"dimension":"minecraft:overworld","pos":[-53,57,-2]},"tracked":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
