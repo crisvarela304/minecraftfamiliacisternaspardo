@@ -1,5 +1,11 @@
-/world
-/libraries
-/logs
-/cache
+# Ignorar carpetas pesadas dentro del volumen de Docker
+data/world/
+data/libraries/
+data/logs/
+data/cache/
+data/versions/
+
+# Archivos de sistema y temporales
 *.zip
+*.log
+.DS_Store
