@@ -8,20 +8,19 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      # Datos de tu variables.txt
       VERSION: "1.21.1"
       TYPE: "NEOFORGE"
       NEOFORGE_VERSION: "21.1.219"
-      # Configuración para tu familia
       ONLINE_MODE: "FALSE"
+      # Java usará 4GB para el juego
       MEMORY: "4G"
     volumes:
-      # Mapea tu repositorio a la carpeta de datos de Docker
+      # Mapea tu carpeta a los datos del servidor
       - .:/data
     deploy:
       resources:
         limits:
           cpus: '2.0'
-          # Límite duro para proteger el resto del VPS
-          memory: 4.5G
+          # Docker permite hasta 6GB para evitar el error 137
+          memory: 6G
     restart: unless-stopped
