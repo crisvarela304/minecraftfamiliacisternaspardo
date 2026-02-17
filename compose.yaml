@@ -15,7 +15,7 @@ services:
       ONLINE_MODE: "FALSE"
       LEVEL: "world_japon"
       # Asignación de memoria balanceada para VPS de 8GB
-      MEMORY: "3000M" 
+      MEMORY: "4000" 
       JVM_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20"
     volumes:
       - ./data:/data
@@ -23,4 +23,4 @@ services:
       resources:
         limits:
           # Límite físico estricto para proteger el resto de la VPS
-          memory: 4500M
+          memory: 5500
